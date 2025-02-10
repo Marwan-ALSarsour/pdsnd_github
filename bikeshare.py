@@ -17,7 +17,11 @@ CITY_DATA = {
     'new york city': 'new_york_city.csv',
     'washington': 'washington.csv'
 }
-
+# Display available city data before user input
+print("\n📊 Available Cities for Analysis 📊")
+for city, filename in CITY_DATA.items():
+    print(f"- {city.title()}: {filename}")
+print("-" * 40)
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
