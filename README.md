@@ -34,3 +34,12 @@ To run this project, ensure you have Python installed along with the required li
 ```bash
 pip install pandas numpy
 
+## Usage Examples  
+To analyze bikeshare data for Chicago in March on Mondays, run:  
+```bash
+python bikeshare.py
+# Then enter:  
+# city: chicago  
+# month: march  
+# day: monday
+
