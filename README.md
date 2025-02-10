@@ -28,3 +28,9 @@ https://github.com/udacity/pdsnd_github
 
 Documentation from pandas and NumPy
 
+## Installation  
+To run this project, ensure you have Python installed along with the required libraries:  
+
+```bash
+pip install pandas numpy
+
